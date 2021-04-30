@@ -7,9 +7,13 @@
     </div>
     <div class="row">
       <div class="form-group col-6">
-
+        <label class="text-warning" for="id">Release Year:</label>
+      <input id="year" type="text" class="form-control"
+        required pattern="" name="year" [(ngModel)]="movie.year">
       </div>
       <div class="form-group col-6">
+        <label for="id"></label>
+        <select name="category" id="category"></select>
 
       </div>
     </div>
